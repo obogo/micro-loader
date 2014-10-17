@@ -1,0 +1,18 @@
+{
+    "name": "microloader",
+    "version": "1.0.0",
+    "description": "Widget.js is used to initialize and load other service libraries asynchronously",
+    "url": "widget.js",
+    "dependencies": {},
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-jshint": "latest",
+        "grunt-contrib-uglify": "~0.2.0",
+        "grunt-contrib-compress": "~0.5.2",
+        "grunt-contrib-copy": "~0.4.1",
+        "grunt-replace": "latest"
+    },
+    "engines": {
+        "node": ">=0.8.0"
+    }
+}

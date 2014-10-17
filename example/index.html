@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+
+    // This is an example on how widget.js can be used
+    window.microloaderSettings = {
+        user_id: "5432b03462ccc7ea7bcc2c41",
+        name: "John Smith",
+        email: "john.smith@mycompany.com",
+        app_key: "9plmvlph",
+        signature: "5eb63bbbe01eeed093cb22bb8f5acdc3",
+        timestamp: 1413496405
+    };
+
+</script>
+
+<!-- Generally you would not reference the file like this, rather just copy and paste it into the script tag above -->
+<script src="../build/microloader.js"></script>
+
+<script>
+
+    microloader('ready', function(){
+        console.log('ready');
+    });
+
+    microloader('custom_action' /* [, args... ] */);
+
+</script>
+</body>
+</html>
